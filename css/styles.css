@@ -56,7 +56,7 @@ p {
 
 /* Phone */
 .phone-img {
-    width: 12%;
+    width: 15%;
     transform: rotate(25deg);
     position: absolute;
     right: 25%;
@@ -169,13 +169,13 @@ p {
 
 #cta {
     padding: 7% 15%;
-    text-align: center; 
-    background-color: #ef8172;    
+    text-align: center;
+    background-color: #ef8172;
 }
 
 .cta-heading {
     color: #fff;
-    font-size: 3rem;   
+    font-size: 3rem;
     line-height: 1.5;
 }
 
@@ -183,13 +183,14 @@ p {
 
 #footer {
     padding: 7% 15%;
-    text-align: center; 
-    background-color: #fff; 
+    text-align: center;
+    background-color: #fff;
 }
 
 .footer-txt {
     font-family: 'Montserrat-Light';
 }
+
 .footer-icon {
     margin: 20px 10px;
 }
