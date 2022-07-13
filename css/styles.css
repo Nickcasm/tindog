@@ -14,6 +14,7 @@ h1 {
     font-weight: 400;
     line-height: 1.5;
 }
+
 h2 {
     font-family: 'Montserrat';
     font-size: 2rem;
@@ -50,16 +51,34 @@ p {
 
 .dwn-btn {
     margin: 5% 3% 5% 0;
+    font-family: 'Montserrat-Light';
 }
 
 /* Phone */
 .phone-img {
-    width: 60%;
+    width: 12%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+
 }
 
 .phone-img:hover {
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.6));
+}
+
+@media (max-width : 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .phone-img {
+        width: 40%;
+        position: static;
+        transform: rotate(0);
+
+    }
 }
 
 
@@ -67,6 +86,8 @@ p {
 
 #features {
     padding: 7% 10%;
+    background-color: #fff;
+    position: relative;
 }
 
 .feature {
@@ -93,7 +114,7 @@ p {
     padding: 7% 10%;
     text-align: center;
     background-color: #ef8172;
-    color: #fff;    
+    color: #fff;
 }
 
 .testimonial-img {
@@ -104,18 +125,71 @@ p {
 
 /* Press */
 
-#press {    
+#press {
     text-align: center;
     background-color: #ef8172;
-    color: #fff;     
+    color: #fff;
 }
+
 .carousel-item {
     padding: 2% 10%;
 }
-.press-img{
+
+.press-img {
     width: 15%;
     margin: 20px 20px;
 }
-.press-img:hover{
+
+.press-img:hover {
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.6));
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 2% 10%;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+.pricing-header {
+    font-size: 2.5rem;
+    font-family: 'Montserrat';
+    line-height: 1.5;
+}
+
+.pricing-btn {
+    font-family: 'Montserrat-Light';
+}
+
+/* cta */
+
+#cta {
+    padding: 7% 15%;
+    text-align: center; 
+    background-color: #ef8172;    
+}
+
+.cta-heading {
+    color: #fff;
+    font-size: 3rem;   
+    line-height: 1.5;
+}
+
+/* footer */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center; 
+    background-color: #fff; 
+}
+
+.footer-txt {
+    font-family: 'Montserrat-Light';
+}
+.footer-icon {
+    margin: 20px 10px;
 }

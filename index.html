@@ -29,7 +29,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
               </li>
               <li class="nav-item">
@@ -45,13 +45,13 @@
         <!-- Title -->
 
         <div class="row">
-          <div class="col">
+          <div class="col-lg-6">
             <h1>Meet new and interesting dogs nearby.</h1>
             <button type="button" class="btn btn-dark btn-lg dwn-btn"><i class="fa-brands fa-apple"></i> Download</button>
             <button type="button" class="btn btn-outline-light btn-lg dwn-btn"><i class="fa-brands fa-google-play"></i> Download</button>
           </div>
 
-          <div class="col">
+          <div class="col-lg-6">
             <img class="phone-img" src="images/iphone6.png" alt="iphone-mockup" />
           </div>
         </div>
@@ -99,10 +99,10 @@
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon"></span>          
+          <span class="carousel-control-prev-icon"></span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon"></span>          
+          <span class="carousel-control-next-icon"></span>
         </button>
       </div>
     </section>
@@ -121,44 +121,71 @@
     <!-- Pricing -->
 
     <section id="pricing">
-      <h2>A Plan for Every Dog's Needs</h2>
+      <h2 class="pricing-header">A Plan for Every Dog's Needs</h2>
       <p>Simple and affordable price plans for your and your dog.</p>
-
-      <h3>Chihuahua</h3>
-      <h2>Free</h2>
-      <p>5 Matches Per Day</p>
-      <p>10 Messages Per Day</p>
-      <p>Unlimited App Usage</p>
-      <button type="button">Sign Up</button>
-
-      <h3>Labrador</h3>
-      <h2>$49 / mo</h2>
-      <p>Unlimited Matches</p>
-      <p>Unlimited Messages</p>
-      <p>Unlimited App Usage</p>
-      <button type="button">Sign Up</button>
-
-      <h3>Mastiff</h3>
-      <h2>$99 / mo</h2>
-      <p>Pirority Listing</p>
-      <p>Unlimited Matches</p>
-      <p>Unlimited Messages</p>
-      <p>Unlimited App Usage</p>
-      <button type="button">Sign Up</button>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 pricing-col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h3>Chihuahua</h3>
+            </div>
+            <div class="card-body">
+              <h2>Free</h2>
+              <p>5 Matches Per Day</p>
+              <p>10 Messages Per Day</p>
+              <p>Unlimited App Usage</p>
+              <button type="button" class="w-100 btn btn-lg btn-outline-primary pricing-btn">Sign up for free</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 pricing-col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h3>Labrador</h3>
+            </div>
+            <div class="card-body">
+              <h2>$49 / mo</h2>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <button type="button" class="w-100 btn btn-lg btn-primary pricing-btn">Get started</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 pricing-col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-white bg-primary border-primary">
+              <h3>Mastiff</h3>
+            </div>
+            <div class="card-body">
+              <h2>$99 / mo</h2>
+              <p>Pirority Listing</p>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <button type="button" class="w-100 btn btn-lg btn-primary pricing-btn">Contact us</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Call to Action -->
 
     <section id="cta">
-      <h3>Find the True Love of Your Dog's Life Today.</h3>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+      <h3 class="cta-heading">Find the True Love of Your Dog's Life Today.</h3>
+      <button type="button" class="btn btn-dark btn-lg dwn-btn"><i class="fa-brands fa-apple"></i> Download</button>
+      <button type="button" class="btn btn-outline-light btn-lg dwn-btn"><i class="fa-brands fa-google-play"></i> Download</button>
     </section>
 
     <!-- Footer -->
 
     <footer id="footer">
-      <p>© Copyright TinDog</p>
+      <i class="footer-icon fa-brands fa-facebook-f"></i>
+      <i class="footer-icon fa-brands fa-twitter"></i>
+      <i class="footer-icon fa-brands fa-instagram"></i>
+      <i class="footer-icon fa-solid fa-envelope"></i>
+      <p class="footer-txt">© Copyright 2022 TinDog</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
